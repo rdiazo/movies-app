@@ -17,10 +17,10 @@ movieRouter.route('/movies/:id/genres')
 
 
 movieRouter.route('/movies/:id/actors')
-    .get(setMoviesActors) 
+    .post(setMoviesActors) 
     
 
 movieRouter.route('/movies/:id/directors')
-    .get(setMoviesDirectors)
+    .post(setMoviesDirectors)
 
 module.exports = movieRouter;
