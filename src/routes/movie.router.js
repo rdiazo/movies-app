@@ -13,7 +13,7 @@ movieRouter.route('/movies/:id')
     .put(update)
 
 movieRouter.route('/movies/:id/genres')
-    .get(setMoviesGenres)
+    .post(setMoviesGenres)
 
 
 movieRouter.route('/movies/:id/actors')
