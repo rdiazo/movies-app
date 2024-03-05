@@ -11,7 +11,7 @@ const Movies = sequelize.define('movies', {
         allowNull: false
     },
     synopsis: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false
     },
     releaseYear: {
